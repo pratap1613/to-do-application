@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Task Manager</title>
+</head>
+
+<body>
+    <h1 class="leader"></h1>
+    <div class="box-1">
+    <h2 class="to-do-heading"><u>To-Do list</u></h2>
+    <img src="icon.png" 
+    alt = "icon not load"
+    class="icon-img"/>  
+  <div class="container">
+    <div class="input-container">
+      <input type="text" id="task-input" placeholder="Enter task">
+      <button id="add-btn">Add</button>
+    </div>
+    <br>
+    
+    <div id="calendar-picker-container" class="input-container">
+        <label for="calendar-picker">Select date:</label>
+        <input type="date" id="calendar-picker">
+        <button id="calendar-save-btn">Save</button>
+    </div>
+    <br>
+    <div id="time-picker-container" class="input-container">
+        <label for="time-picker">Select time:</label>
+        <input type="time" id="time-picker">
+        <button id="save-btn" >Save</button>
+    </div>
+</div>
+<div class="card-container" id="card-container">
+
+</div>
+
+<script src="script.js"></script>
+<h2> <u>Saved Tasks</u></h2>
+</body>
+
+</html>

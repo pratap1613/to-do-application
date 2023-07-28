@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #00FFFF;
+  }
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: linear-gradient(to right,#db4b93,#d599c6); 
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  }
+  .container:hover{
+    box-shadow: 0px 0px 30px 10px #fff3bf;
+}
+  .input-container {
+    display: flex;
+    flex-direction: row;    
+    gap : 1rem;
+    background-color: hwb(161 17% 45%);
+    padding : 1rem;
+    border-radius: 20px;
+  }
+
+.to-do-heading{
+    color : hsl(312, 87%, 15%);
+}
+.icon-img{
+    margin-bottom : 1rem;
+}
+  input{
+    padding-left: 20px;
+}
+  #add-btn {
+    font-weight: 700;
+    width: 30%;
+    cursor : pointer;
+    background-color:#f44336;
+    color: #495057;
+    display: none;
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width:100%;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    align-content: center;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width:400px;
+  }
+  
+  .card.important {
+    border-color: #f44336;
+  }
+  
+  .action-container {
+    margin-top: 10px;
+  }
+  
+  .important-icon {
+    color: #f44336;
+  }
